@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+    <Button fx:id="clickSend0" onAction="#clickSend0" text="расчитать" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+    <Button onAction="#clicCleen" text="очистить" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+    <Text text="Сумма кредита" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <Text text="Процентная годовая ставка" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Text text="Срок кредитования" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <TextField fx:id="textSumma" onAction="#textSumma" prefWidth="300" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="textStavka" onAction="#textStavka" prefWidth="300" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="textYear" onAction="#textYear" prefWidth="300" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <TextArea fx:id="textArea" prefWidth="300" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+
+
+
+</GridPane>
